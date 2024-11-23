@@ -357,7 +357,7 @@ function createMainElements() {
         <div class="smallbanernotics">
             <span>
                 We use cookies to enhance your experience, as well as for analytics and measurement purposes. By continuing to use our website and services, you agree to our use of cookies as outlined in our 
-                <a href="https://liang-leads.webflow.io/privacy"> cookie policy & privacy policy</a>
+                <a href="#"> cookie policy & privacy policy</a>
             </span>
         </div>
         <div class="smallbannerbuttons">
