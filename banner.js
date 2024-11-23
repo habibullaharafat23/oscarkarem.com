@@ -69,11 +69,11 @@ var consentValue = ["granted", "denied"];
 var consent = {
     ad_storage: 'granted',
     ad_user_data: 'granted',
-    ad_personalization: 'denied',
-    analytics_storage: 'denied',
-    functionality_storage: 'denied',
-    personalization_storage: 'denied',
-    unclassified_storage:  'denied',
+    ad_personalization: 'granted',
+    analytics_storage: 'granted',
+    functionality_storage: 'granted',
+    personalization_storage: 'granted',
+    unclassified_storage:  'granted',
 }
 
 var cookieCategories = {};
