@@ -111,6 +111,7 @@
     line-height: 22px;
     background: var(--bannerColorWhite) !important;
     color: var(--cookieHeadlineColor) !important;
+    z-index: 111;
 }
 
 .smallbanernotics a{
