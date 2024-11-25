@@ -4,31 +4,32 @@ var unknownCookieText = ["Unknown", "This cookie information is unknown"];
 
 var categoryText = ["Necessary", "Preferences", "Statistics", "Marketing", "Unclassified"];
 
-var learnMoreText = "Learn more about the provider";
+var learnMoreText = "Mehr über den Anbieter erfahren";
 
 var topSectionText = ["Consent", "Details", "About"];
 
-var firstSectionText = "We use cookies to enhance your experience, as well as for analytics and measurement purposes. By continuing to use our website and services, you agree to our use of cookies as outlined in our Cookie Policy and Privacy Policy.";
+var firstSectionText = "In diesem Abschnitt kannst du deine Einwilligungen für jede der unten aufgeführten Tracking-Technologien individuell anpassen. Mehr darüber, wie wir diese Tracker verwenden und wie sie funktionieren, findest du in unserer Datenschutzerklärung. Bitte beachte, dass bei der Ablehnung einzelner Verwendungszwecke bestimmte Funktionen möglicherweise nicht verfügbar sind.";
 
 var thirdSectionText = "Cookies are small text files that are used by websites to improve the user experience. The law states that we can store cookies on your device if they are strictly necessary for the operation of this website. For all other types of cookies, we need your permission. This means that cookies classified as necessary are managed according to Article 6(1)(f) of the GDPR. All other cookies, such as those in the Preferences and Marketing categories, are managed according to Article 6(1)(a) of the GDPR. This website uses different types of cookies. Some cookies are set by third-party services that appear on our pages.";
 
-var bannerButtonsTexts = ["Allow All", "Reject All", "Confirm My Choices", "Save"];
+var bannerButtonsTexts = ["Allen zustimmen", "Alle ablehnen", "Speichern und weitersurfen", "Save"];
 
 var categoryDescriptionsText = {
-    Necessary: {
-        description: "Necessary cookies make the website usable by enabling basic functions like page navigation and access to secure areas of the website. Without these cookies, the website cannot function properly.",
+    Erforderlich: {
+        description: "Erforderliche Cookies machen die Website nutzbar, indem sie grundlegende Funktionen wie die Navigation auf der Seite und den Zugriff auf geschützte Bereiche der Website ermöglichen. Ohne diese Cookies kann die Website nicht ordnungsgemäß funktionieren.",
     },
-    Preferences: {
-        description: "Preference cookies enable a website to remember information that changes the way the website behaves or looks.",
+    Einstellungen: {
+        description: "Einstellungs-Cookies ermöglichen es der Website, Informationen zu speichern, die das Verhalten oder Aussehen der Website anpassen.",
     },
-    Statistics: {
-        description: "Statistics cookies help website owners understand how visitors interact with websites by collecting and reporting information anonymously.",
+    Statistiken: {
+        description: "Statistik-Cookies helfen Website-Betreibern zu verstehen, wie Besucher mit der Website interagieren, indem sie Informationen anonym sammeln und berichten.",
     },
     Marketing: {
-        description: "Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user.",
+        description: "Die technische Speicherung oder der Zugriff ist erforderlich, um Nutzerprofile zu erstellen, um Werbung zu versenden oder um den Nutzer auf einer Website oder über mehrere
+Websites hinweg zu ähnlichen Marketingzwecken zu verfolgen.",
     },
-    Unclassified: {
-        description: "Unclassified cookies are cookies that we are currently classifying together with the providers of individual cookies.",
+    Nicht klassifiziert: {
+        description: "Nicht klassifizierte Cookies sind Cookies, die wir derzeit zusammen mit den Anbietern der einzelnen Cookies klassifizieren.",
     },
 };
 
@@ -356,13 +357,13 @@ function createMainElements() {
     createSmallBanner.innerHTML = `
         <div class="smallbanernotics">
             <span>
-                We use cookies to enhance your experience, as well as for analytics and measurement purposes. By continuing to use our website and services, you agree to our use of cookies as outlined in our 
-                <a href="#"> cookie policy & privacy policy</a>
+               Um dir das beste Erlebnis zu bieten, nutzen wir Cookies und ähnliche Technologien, wie in unserer Datenschutzerklärung beschrieben. Damit verarbeiten wir Daten 
+               wie dein Surfverhalten oder eindeutige IDs. Wenn du deine Zustimmung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.
             </span>
         </div>
         <div class="smallbannerbuttons">
-            <button class="accept">Accept All Cookies</button>
-            <button class="settings">Cookie Settings</button>
+            <button class="accept">Zustimmen</button>
+            <button class="settings">Mehr erfahren</button>
         </div>
     `
 
