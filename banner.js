@@ -2,7 +2,7 @@ var websitePrivacyPage = "#";
 
 var unknownCookieText = ["Unknown", "This cookie information is unknown"];
 
-var categoryText = ["Necessary", "Preferences", "Statistics", "Marketing", "Unclassified"];
+var categoryText = ["Erforderlich", "Einstellungen", "Statistiken", "Marketing", "Nicht klassifiziert"];
 
 var learnMoreText = "Mehr über den Anbieter erfahren";
 
